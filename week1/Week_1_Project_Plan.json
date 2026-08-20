@@ -1,0 +1,108 @@
+{
+    "document_title": "Week 1 Task: Data Science Project Planning and Strategy Design",
+    "intern_name": "SRIRAJ W.V.P.S",
+    "project_name": "T20 Cricket Match Score Prediction & Performance Analytics",
+    "sections": [
+        {
+            "title": "1. Introduction & Background",
+            "content": [
+                {
+                    "subtitle": "Hypothetical Problem",
+                    "text": "T20 franchise cricket generates vast amounts of ball-by-ball data, but teams often struggle to translate raw statistics into real-time, actionable strategies. A data science approach utilizing Python can identify hidden patterns in player matchups, pitch conditions, and venue history."
+                },
+                {
+                    "subtitle": "Motivation",
+                    "text": "Predicting match outcomes and optimizing player selection using data-driven insights provides a competitive edge in high-stakes tournaments."
+                }
+            ]
+        },
+        {
+            "title": "2. Project Objectives & Scope",
+            "content": [
+                {
+                    "subtitle": "Objectives",
+                    "text": "1. Develop a machine learning model to predict the first-innings score based on the first 6 overs (Powerplay).\n2. Analyze player matchups (e.g., specific batter vs. spin bowlers) to recommend optimal playing XIs."
+                },
+                {
+                    "subtitle": "In-Scope",
+                    "text": "Historical ball-by-ball data, player statistics, venue data, and toss decisions."
+                },
+                {
+                    "subtitle": "Out-of-Scope",
+                    "text": "Real-time weather forecasting, ticket sales analytics, and stadium attendance metrics."
+                }
+            ]
+        },
+        {
+            "title": "3. Methodology & Strategy",
+            "content": [
+                {
+                    "subtitle": "Data Collection",
+                    "text": "Acquire historical T20 match datasets containing ball-by-ball logs."
+                },
+                {
+                    "subtitle": "Data Cleaning",
+                    "text": "Handle missing values in player names, standardize venue names, and filter out rain-affected or truncated matches."
+                },
+                {
+                    "subtitle": "Exploratory Data Analysis (EDA)",
+                    "text": "Visualize run rates across different phases of the game and plot player strike rates against specific bowling types."
+                },
+                {
+                    "subtitle": "Modeling",
+                    "text": "Train regression models for score prediction and classification models for match-winner prediction."
+                },
+                {
+                    "subtitle": "Evaluation",
+                    "text": "Use metrics like Mean Absolute Error (MAE) for score prediction and accuracy/F1-score for win classification."
+                },
+                {
+                    "subtitle": "Diagram Requirement",
+                    "text": "[Note: Insert a Data Science Lifecycle Flowchart diagram here illustrating Data Collection -> Data Cleaning -> EDA -> Modeling -> Evaluation]"
+                }
+            ]
+        },
+        {
+            "title": "4. Timeline & Tools (35 Hours)",
+            "content": [
+                {
+                    "subtitle": "Phase 1 (Hours 1-5)",
+                    "text": "Project Scoping & Data Acquisition (Python libraries: requests, BeautifulSoup)."
+                },
+                {
+                    "subtitle": "Phase 2 (Hours 6-12)",
+                    "text": "Data Cleaning & Preprocessing (Python libraries: pandas, numpy)."
+                },
+                {
+                    "subtitle": "Phase 3 (Hours 13-20)",
+                    "text": "EDA & Visualization (Python libraries: matplotlib, seaborn, plotly)."
+                },
+                {
+                    "subtitle": "Phase 4 (Hours 21-30)",
+                    "text": "Model Building & Evaluation (Python libraries: scikit-learn, xgboost)."
+                },
+                {
+                    "subtitle": "Phase 5 (Hours 31-35)",
+                    "text": "Final Review & Documentation (Tools: Jupyter Notebook, MS Word)."
+                }
+            ]
+        },
+        {
+            "title": "5. Expected Outcomes & Challenges",
+            "content": [
+                {
+                    "subtitle": "Expected Outcomes",
+                    "text": "A robust predictive model capable of estimating scores with a defined margin of error, and a comprehensive dashboard mapping key player matchups."
+                },
+                {
+                    "subtitle": "Anticipated Challenges",
+                    "text": "High variance in T20 matches, changes in squad compositions, and sparse data for newly debuted players."
+                },
+                {
+                    "subtitle": "Mitigation Strategy",
+                    "text": "Implement rolling averages for player form rather than relying solely on career statistics, and utilize ensemble learning methods to handle variance."
+                }
+            ]
+        }
+    ]
+}
