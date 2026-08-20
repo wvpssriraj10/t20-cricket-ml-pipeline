@@ -32,5 +32,4 @@ This repository contains the strategic plans, analytical frameworks, machine lea
 ## Tools & Libraries Referenced
 * **Data Processing:** Python, Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn, Plotly
-* **Machine Learning:** Scikit-Learn, XGBoost, LightGBM, Optuna
-* **Deployment & Ops:** FastAPI, Docker, Evidently AI
+* **Machine Learning:** Scikit-Learn, XGBoost, LightGBM
